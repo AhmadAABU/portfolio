@@ -3,7 +3,7 @@ name: Deploy React Vite App to GitHub Pages
 on:
   push:
     branches:
-      - main # أو الفرع اللي تستخدمه للنشر
+      - master
 
 jobs:
   build-and-deploy:
