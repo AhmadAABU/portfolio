@@ -42,7 +42,11 @@ export default function Section() {
             </a>
           </button>
 
-          <a className="cv-btn" href="/aj.pdf" download="ahmad Jawdat.pdf">
+          <a
+            className="cv-btn"
+            href="/portfolio/aj.pdf"
+            download="ahmad Jawdat.pdf"
+          >
             Download CV
           </a>
         </div>
