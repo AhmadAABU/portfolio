@@ -29,7 +29,7 @@ export default function NavBar() {
         </button>
 
         <div className={`menu ${isMenuOpen ? "open" : ""}`}>
-          <a href="/portfolio/" onClick={toggleMenu}>
+          <a href="/portfolio/index.html" onClick={toggleMenu}>
             Home
           </a>
           <a href="#about" onClick={toggleMenu}>
