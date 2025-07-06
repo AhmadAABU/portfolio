@@ -5,7 +5,7 @@ import MainSec from "./MainSec";
 import Section from "./Section";
 import SkillsSec from "./SkillsSec";
 import Projects from "./Projects";
-import Contact from "./contact";
+import Contact from "./Contact";
 import Footer from "./Footer";
 export default function Portfolio() {
   return (
