@@ -1,15 +1,7 @@
-import React from "react";
+import "./normal.css";
+import "./all.min.css";
 import "./Portfolio.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
-
 export default function MainSec() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-    });
-  }, []);
   return (
     <div className="main">
       <h1 className="main-header" data-aos="fade-right">
@@ -19,7 +11,7 @@ export default function MainSec() {
         Recent AABU Graduate
       </p>
       <center>
-        <a className="main-b" data-aos="fade-right" href="#projects">
+        <a className="main-b" href="#projects" data-aos="fade-right">
           View my Work
         </a>
       </center>

@@ -1,4 +1,6 @@
-import React from "react";
+import "./normal.css";
+import "./all.min.css";
+import "./Portfolio.css";
 
 export default function Mainbtn({ title, id }) {
   return (

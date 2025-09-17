@@ -1,4 +1,6 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
+import "./normal.css";
+import "./all.min.css";
 import "./Portfolio.css";
 
 export default function NavBar() {

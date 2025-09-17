@@ -1,19 +1,11 @@
-import React from "react";
+import "./normal.css";
+import "./all.min.css";
 import "./Portfolio.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
-
 export default function ProjectsBox({ image, tags, title, p, link }) {
-  useEffect(() => {
-    AOS.init({
-      duration: 2000,
-    });
-  }, []);
   return (
     <div className="grid-box-skills" data-aos="fade-right">
       <div>
-        <img src={image} />
+        <img src={image} loading="lazy" />
       </div>
       <div className="flex-box">
         {tags.map((tag, index) => (

@@ -1,17 +1,10 @@
-import React from "react";
 import InfoBox from "./InfoBox";
 import Mainbtn from "./Mainbtn";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
+import "./normal.css";
+import "./all.min.css";
+import "./Portfolio.css";
 
 export default function Section() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-    });
-  }, []);
-
   return (
     <section>
       <Mainbtn title="About Me" id="about" />

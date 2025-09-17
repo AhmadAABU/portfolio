@@ -1,8 +1,10 @@
-import React from "react";
 import Mainbtn from "./Mainbtn";
 import p1 from "./imgs/p1.jpeg";
 import p2 from "./imgs/p2.jpg";
 import ProjectsBox from "./ProjectsBox";
+import "./normal.css";
+import "./all.min.css";
+import "./Portfolio.css";
 export default function Projects() {
   return (
     <div>

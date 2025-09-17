@@ -1,7 +1,8 @@
-import React from "react";
 import Mainbtn from "./Mainbtn";
-import "./Portfolio.css";
 import ContactBox from "./ContactBox";
+import "./normal.css";
+import "./all.min.css";
+import "./Portfolio.css";
 
 export default function Contact() {
   return (

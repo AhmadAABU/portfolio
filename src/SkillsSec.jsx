@@ -1,5 +1,3 @@
-import React from "react";
-import "./Portfolio.css";
 import Mainbtn from "./Mainbtn";
 import SkillsBox from "./SkillsBox";
 import html from "./imgs/html.png";
@@ -17,6 +15,9 @@ import java from "./imgs/java.png";
 import php from "./imgs/php.png";
 import ps from "./imgs/ps.png";
 import sql from "./imgs/sql.png";
+import "./normal.css";
+import "./all.min.css";
+import "./Portfolio.css";
 
 export default function SkillsSec() {
   return (

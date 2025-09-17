@@ -1,14 +1,7 @@
-import React from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
-
+import "./normal.css";
+import "./all.min.css";
+import "./Portfolio.css";
 export default function InfoBox({ iconClass, title, description }) {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-    });
-  }, []);
   return (
     <div className="box" data-aos="fade-right">
       <i className={iconClass}></i>
