@@ -213,7 +213,7 @@ body {
   background-color: rgb(182, 182, 182);
   padding-bottom: 200px;
   padding-top: 200px;
-  background: url(cs.jpg);
+  background: url(cs.webp);
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 600px;
@@ -222,7 +222,7 @@ body {
   background-color: rgb(182, 182, 182);
   padding-bottom: 200px;
   padding-top: 200px;
-  background: url(darkmode.jpg);
+  background: url(darkmode.webp);
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 600px;
@@ -471,7 +471,7 @@ section {
 }
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   gap: 30px;
   padding-bottom: 65px;
   padding-top: 50px;
@@ -532,6 +532,9 @@ section {
 
   .flex-box-s a {
     font-size: 16px;
+  }
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }
 .info-flex-box {

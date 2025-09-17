@@ -5,7 +5,7 @@ import "./Portfolio.css";
 
 export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
